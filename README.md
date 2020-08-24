@@ -11,8 +11,8 @@ Have a look at [gtoffoli/django-xapi-client](https://github.com/gtoffoli/django-
 from simple_xapi_client import LRS, XapiStatement, XapiActor, XapiVerb, XapiObject
 
 actor = XapiActor('Demo', 'demo@url.com')
-obj = XapiObject('https://url.com/essay', 'Essay')
 verb = XapiVerb('created')
+obj = XapiObject('https://url.com/essay', 'Essay')
 
 statement = XapiStatement(actor, verb, obj)
 
